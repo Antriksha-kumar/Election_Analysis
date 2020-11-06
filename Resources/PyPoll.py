@@ -30,8 +30,9 @@ with open(file_to_load) as election_data:
     # Print the header row.
     headers = next(file_reader)
     print(headers)
-    # for row in file_reader:
-    #     print(row)
+    for row in file_reader:
+         print(row)
+
 
     #print(election_data)
 # # Close the file.
