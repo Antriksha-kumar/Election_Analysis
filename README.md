@@ -34,6 +34,7 @@ The total number of votes cast in the conressional election was : **369,711**
 
 ---
 <img src = "./Resources/TotalVotes.png"></img>
+
 ---
 
 ### 2. Total number of votes and the percentage of total votes for each county in the precinct. ###
@@ -42,6 +43,7 @@ We can see that Denver accounted for around 82 % of the total votes cast. While 
 
 ---
 <img src = "./Resources/County_votes.png"></img>
+
 ---
 
 ### 3. Which county had the largest number of votes? ### 
@@ -50,6 +52,7 @@ As we saw from the previous image that the **Denver** county accounted for aroun
 
 ---
 <img src = "./Resources/LargestCounty.png"></img>
+
 ---
 
 
@@ -59,22 +62,25 @@ Below image represents the breakdown of voteshare among the candidates.
 
 ---
 <img src = "./Resources/CandidiatePerformance.png"></img>
+
 ---
 
 ### 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?### 
 
 As we counted the votes and completed all analysis, there was a clear mandate in favor of **Diana DeGette** as she received almost 3/4th of the total votes cast.
 
+
 ---
-<img src = "./Resources/WinningCandidate
-.png"></img>
+<img src = "./Resources/WinningCandidate.png"></img>
+
 ---
+
 
 # Summary #
 
 The analysis of the data set given presented us with the below pieces of information:
 
-* Totalo no. of votes - 369,711
+* Totalo no. of votes - **369,711**
 * Candidates -
     * Charles Casper Stockham
     * Diana DeGette
@@ -84,31 +90,12 @@ The analysis of the data set given presented us with the below pieces of informa
     * Denver
     * Jefferson
 * County which influenced the result most -
-    * Denver - ~82% of total votes cast were from this county
+    * Denver - **~82%** of total votes cast were from this count.
 
 * Result if Election
     * **Diana DeGette** is the winner of the election as she received 3 of 4 votes cast.
 
-While this analysis fulfills the current requirement of judging the performance of candidayes in the election, we can get more  more insgiht out of the given data set with some modification s in the current python script.
+While this analysis fulfills the current requirement of judging the performance of candidayes in the election, we can get more  more insgiht out of the given data set with some modifications in the current python script.
 Such as we could find which county voted in favour of which candidate.
 
 Also by looking on to the preference of voters (no of votes cast to each candidate in a county) we can analyse if a county is voting en bloc or there is a diverse opinion about the candidate.
-
-
-
-
-County Votes:
-Jefferson : 10.51% 38,855
-Denver : 82.78% 306,055
-Arapahoe : 6.71% 24,801
-
--------------------------
-Largest County Turnout: Denver
--------------------------
-Charles Casper Stockham: 23.0% (85,213)
-Diana DeGette: 73.8% (272,892)
-Raymon Anthony Doane: 3.1% (11,606)
--------------------------
-Winner: Diana DeGette
-Winning Vote Count: 272,892
-Winning Percentage: 73.8%
